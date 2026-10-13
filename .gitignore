@@ -1,0 +1,16 @@
+# Devpost Learn - keep personal learning context out of commits
+/devpost/learner-profile.md
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Dependency and build folders (generated, not for publication)
+node_modules/
+dist/
+*.db
+*.sqlite
+
+# Environment variable files (only .env.example is tracked)
+.env*
